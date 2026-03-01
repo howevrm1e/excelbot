@@ -1,0 +1,19 @@
+// Example configuration file
+// You can use this to manage settings instead of hardcoding values
+
+{
+  "telegram": {
+    "bot_token": "YOUR_BOT_TOKEN_HERE",
+    "bot_username": "your_bot_username",
+    "admin_id": null
+  },
+  "excel": {
+    "max_column_width": 50,
+    "default_sheet_name": "Data",
+    "auto_adjust_columns": true
+  },
+  "file": {
+    "cleanup_after_send": true,
+    "output_directory": "./"
+  }
+}

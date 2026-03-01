@@ -1,0 +1,38 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Bot token and sensitive data
+config.json
+*.env
+.env
+
+# Excel files created by bot (temporary)
+output_*.xlsx
+
+# Logs
+*.log
+logs/
+
+# Python
+dist/
+build/
+*.egg-info/
